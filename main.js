@@ -1,14 +1,10 @@
-module.exports = class DPWShorts {
-
-DPWConsole(WarningType, objectName) {
-    if (WarningType == "ERR"){
-        console.log(`DPW: Error, object: ${objectName}`)
-    }else if (WarningType == "WARN"){
-        console.log(`DPW: Warning, object: ${objectName}`)
-    }else if (WarningType == "INFO"){
-        console.log(`DPW: Info, ${objectName}`)
+function DPWConsole(Type, Desc) {
+    if (WarningType == "ERR" || WarningType == "WARN" || WarningType == "INFO"){
+        console.log(`DPW ${WarningType}: ${Desc}`)
+    }else{
+        console.log("DPW: Couldn't load DPWConsole()")
+        console.log("DPW: Invalid WarningType, try again with ERR or WARN or INFO")
     }
 }
 
-}
-
+module.exports = DPWConsole
