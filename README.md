@@ -1,2 +1,2 @@
 # DPWShorts
- Execute basic DPWeb tasks more faster.
+ Execute basic tasks more faster.
