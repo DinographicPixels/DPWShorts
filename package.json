@@ -1,1 +1,19 @@
-{}
+{
+  "name": "dpwshorts",
+  "description": "Execute basic DPWeb tasks more faster.",
+  "version": "1.0.0",
+  "main": "main.js",
+  "scripts": {
+    "test": "node main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DinographicPixels/DPWShorts.git"
+  },
+  "author": "DinographicPixels",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DinographicPixels/DPWShorts/issues"
+  },
+  "homepage": "https://github.com/DinographicPixels/DPWShorts#readme"
+}
