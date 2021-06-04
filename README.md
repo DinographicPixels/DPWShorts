@@ -2,6 +2,7 @@
 ### Pre-Alpha Documentation
 **Features :**
 * Error/Warning/Info Console Logging (with colors!)
+* TempDB (a temporary database)
 * *New features coming soon..*
 
 Get started
@@ -23,3 +24,40 @@ DPWS.Console(Type, Desc, NoDescWarn)
 // Example : DPWS.Console("ERR", "", true) <- it will ignore the warning
 // Example : DPWS.Console("ERR", "", true) <- it will show the warning
 ```
+
+TempDB usage (a simple, easy to use & fast to setup temporary database)
+-
+##### Usage :
+```
+DPWS.TempDBAddValue(Name, Value, DebugMode) // Add/Create a new value
+DPWS.TempDBGetValue(ValueName) // Get the created value
+TempDBModifyValue(ValueName, NewValue) // Modify the created value (you can't modify the name of the value)
+TempDBRemoveValue(ValueName) // Remove the created value.
+```
+```
+DPWS.TempDBAddValue("Level", "85") // Create/Add a new value to the database
+
+DPWS.TempDBGetValue("Level") // Get the value of "Level"
+
+// Log the value with DPWShorts Console :
+DPWS.Console("INFO",`You are level ${DPWS.TempDBGetValue("Level")}!`)
+
+// Log the value with DPWShorts Console : 
+console.log(`You are level ${DPWS.TempDBGetValue("Level")}!`)
+
+// Modify a value :
+DPWS.TempDBModifyValue("Level", "86")
+
+DPWS.Console("INFO",`You are now level ${DPWS.TempDBGetValue("Level")}!`) // Log the new value
+
+// Delete a value
+DPWS.TempDBRemoveValue("Level")
+
+DPWS.TempDBGetValue("Level") // Check if the value is deleted
+// It will return an error if the value is deleted.
+```
+
+##### You can also enable the debug mode when you create your value with TempDBAddValue() by changing the DebugMode property to true.
+
+### [Need some help or you found a bug?](https://github.com/DinographicPixels/DPWShorts/issues)
+
