@@ -1,4 +1,4 @@
-# DPWShorts
+# ![DPWShorts](https://cdn.glitch.com/0a51cb1c-8d1f-48f8-a7f4-23770c5b0ca2%2FDPShorts%20Logo.png)
 ### Pre-Alpha Documentation
 **Features :**
 * Error/Warning/Info Console Logging (with colors!)
