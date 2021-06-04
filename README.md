@@ -1,4 +1,4 @@
-# DPWShorts
+# ![DPWShorts](https://cdn.glitch.com/0a51cb1c-8d1f-48f8-a7f4-23770c5b0ca2%2FDPShorts%20Logo.png)
 ### Pre-Alpha Documentation
 **Features :**
 * Error/Warning/Info Console Logging (with colors!)
@@ -60,4 +60,3 @@ DPWS.TempDBGetValue("Level") // Check if the value is deleted
 ##### You can also enable the debug mode when you create your value with TempDBAddValue() by changing the DebugMode property to true.
 
 ### [Need some help or you found a bug?](https://github.com/DinographicPixels/DPWShorts/issues)
-
