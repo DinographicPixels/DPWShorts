@@ -18,7 +18,6 @@ var TDBStored = {}
 // Check for update
 Updater(package)
 
-
 module.exports = class DPWS {
 
     Console(Type, Desc, NoDescWarn) {
