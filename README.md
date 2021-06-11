@@ -59,4 +59,9 @@ DPWS.TempDBGetValue("Level") // Check if the value is deleted
 
 ##### You can also enable the debug mode when you create your value with TempDBAddValue() by changing the DebugMode property to true.
 
+---
+#### Patch Note (v1.0.16)
+- DPWS.TempDBGetValue() "undefined" value issue fixed.
+---
+
 ### [Need some help or you found a bug?](https://github.com/DinographicPixels/DPWShorts/issues)
