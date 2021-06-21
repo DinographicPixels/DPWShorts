@@ -11,7 +11,6 @@ Installation
 * Yarn : `yarn add dpwshorts`
 
 Get started
--
 ---
 ```
 const DPWShorts = require("dpwshorts")
