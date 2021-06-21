@@ -5,6 +5,11 @@
 * TempDB (a temporary database)
 * *New features coming soon..*
 
+Installation
+-
+* NPM :`npm install dpwshorts`
+* Yarn : `yarn add dpwshorts`
+
 Get started
 -
 ---
