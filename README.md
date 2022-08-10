@@ -26,7 +26,7 @@ DPWS.Console(Type, Desc, NoDescWarn)
 
 // There's a warning if you don't set the Desc property but you can ignore it by turning on the NoDescWarn property.
 // Example : DPWS.Console("ERR", "", true) <- it will ignore the warning
-// Example : DPWS.Console("ERR", "", true) <- it will show the warning
+// Example : DPWS.Console("ERR", "", false) <- it will show the warning
 ```
 
 TempDB usage (a simple, easy to use & fast to setup temporary database)
